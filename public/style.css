@@ -1,0 +1,113 @@
+body{
+    /* background: url("../img/e1d27aa54a002222f48cc2496fc398df.png"); */
+    background-color: black;
+    background-blend-mode: lighten;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-size: cover;
+}
+
+.container{
+    font-family: "Raleway";
+    /* background-image: url("../img/openart.png"); */
+    /* background-image: linear-gradient(.5turn, black,70%, #F535AA); */
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    /* margin-left: 15%; */
+}
+
+h1{
+    margin: 50px;
+    font-family: "Six Caps", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: #F535AA;
+    text-align: center;
+    font-size: 100px;
+}
+
+h2{
+    color: #F535AA;
+    text-align: center;
+    font-size: 30px;
+    
+} 
+
+h3{
+    color: #F535AA;
+    text-transform: uppercase;
+}
+h4{
+    color: #F535AA;
+    text-transform: uppercase;
+}
+
+.write{
+    font-family: "Raleway";
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.write h2{
+    color: white;
+}
+
+img{
+    float: left;
+    height: 200px;
+    width: 140px;
+    margin: 0px 20px 10px 0px;
+}
+.img_container{
+    overflow: auto;
+}
+
+.edit_delete form{
+    display: inline;
+    
+}
+
+.my_reviews{
+    padding-bottom: 30px;
+    color: white;
+}
+  
+.add{
+    text-transform: uppercase;
+    background-color: black;
+    border-color: #F535AA;
+    font-size: 20px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.second_page{
+    background-color: black;
+    color: #FFB5DA;
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway";
+    align-items: center;
+}
+
+.align{
+    font-family: "Raleway";
+    text-align: center;
+    
+}
+.align input{
+    width: 140px;
+}
+
+.footercolor{
+    color:#F535AA
+}
